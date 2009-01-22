@@ -16,7 +16,12 @@ added to your blog within your Widget configuration screen for a specified usern
 and album ID.
 
 Once the slideshow is in place, it can autostart or not and will open up a new window 
-when clicked showing the images in full size within Picasa Web.
+when clicked showing the images in full size within Picasa Web.  The user ID is self-
+explanatory along with most of the options available for configuration.  The album ID
+is a long number (about 19 digits) and can be retrieved from the slide show link
+within Picasa Web Albums or the "Embed Slideshow" link that appears once you have selected an album
+within your account.  The background color is the background color desired for the slideshow
+and is represented by 6 hexadecimal digits.
 
 A description of the slideshow created is available from this Google Picasa Web Albums
 [post](http://picasa.google.com/support/bin/answer.py?answer=66969 "Slideshow description").
@@ -26,7 +31,7 @@ A description of the slideshow created is available from this Google Picasa Web 
 1. Upload `picasa-slideshow-widget.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Add the 'Picasa Slideshow' widget within the 'Widgets' menu in Wordpess
-4. Change configuration parameters to match your Picasaweb user ID and album ID.
+4. Change configuration parameters to match your Picasa Web user ID and album ID.
 
 == Frequently Asked Questions ==
 
